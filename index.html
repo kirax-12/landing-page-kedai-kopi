@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kopi Senja — Kedai Kopi Tetangga</title>
+<meta name="description" content="Kopi Senja: kedai kopi tetangga. Biji lokal, diseduh pelan, harga jujur. Lihat menu, masukkan keranjang, pesan lewat WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Space+Mono:wght@400;700&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#top">Kopi<span>Senja</span></a>
+  <nav class="site-nav" aria-label="Navigasi utama">
+    <a href="#menu">Menu</a>
+    <a href="#cerita">Cerita</a>
+    <a href="#kunjung">Kunjungi</a>
+  </nav>
+  <button class="cart-button" id="cart-button" type="button" aria-label="Lihat keranjang">
+    Keranjang · <span id="cart-count">0</span>
+  </button>
+</header>
+<div class="tape" aria-hidden="true"><span>Biji Lokal * Seduh Pelan * Harga Jujur * Buka Tiap Hari * Biji Lokal * Seduh Pelan * Harga Jujur * Buka Tiap Hari *</span></div>
+
+<main id="top">
+  <section class="hero">
+    <p class="hero-kicker">Kedai kopi tetangga — est. 2023</p>
+    <h1>Kopi enak nggak harus <span class="hl">mahal & ribet.</span></h1>
+    <p class="hero-sub">Kami menyangrai biji dari petani Gayo, Toraja, dan Kintamani dalam batch kecil tiap minggu. Diseduh pelan, diminum santai — kayak senja yang nggak buru-buru pergi.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#menu">Lihat menu →</a>
+      <a class="btn btn-ghost" href="#kunjung">Jam buka & lokasi</a>
+    </div>
+    <dl class="hero-stats">
+      <div><dt>Biji</dt><dd>3 daerah, 100% arabika & robusta lokal</dd></div>
+      <div><dt>Sangrai</dt><dd>Batch kecil, tiap Senin & Kamis</dd></div>
+      <div><dt>Mulai dari</dt><dd>Rp15 ribu / gelas</dd></div>
+    </dl>
+  </section>
+
+  <section id="menu" class="section">
+    <h2>Menu</h2>
+    <span class="section-sub">klik + keranjang, bayar belakangan ↓</span>
+    <div class="menu-grid" id="menu-grid"></div>
+  </section>
+
+  <section id="cerita" class="section">
+    <h2>Cerita kami</h2>
+    <span class="section-sub">pendek aja, kayak espresso ↓</span>
+    <p>Kopi Senja mulai dari gerobak di depan gang pada 2023. Sekarang kami punya kedai kecil dengan 12 kursi, satu mesin espresso yang setia, dan playlist yang tidak pernah ganti sejak buka.</p>
+    <p>Prinsipnya dari dulu sama: beli biji langsung dari petani dengan harga yang adil, sangrai sendiri, dan jangan pelit takaran. Kalau rasa kopinya berubah, itu karena musim panennya — bukan karena kami menghemat bahan.</p>
+  </section>
+
+  <section id="kunjung" class="section">
+    <h2>Kunjungi kami</h2>
+    <span class="section-sub">mampir, wi-fi kencang ↓</span>
+    <div class="visit-grid">
+      <article class="visit-card">
+        <h3>Alamat</h3>
+        <p>Jl. Kenangan No. 8, Yogyakarta<br>(depan gang Melati, sebelah fotokopian)</p>
+      </article>
+      <article class="visit-card">
+        <h3>Jam buka</h3>
+        <p>Senin–Jumat · 08.00–22.00<br>Sabtu–Minggu · 07.00–23.00</p>
+      </article>
+      <article class="visit-card">
+        <h3>Kontak</h3>
+        <p>WhatsApp: 0812-3456-7890<br>Instagram: @kopisenja.contoh</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<aside class="cart-panel" id="cart-panel" hidden aria-label="Keranjang belanja">
+  <div class="cart-head">
+    <h2>Keranjang</h2>
+    <button class="cart-close" id="cart-close" type="button" aria-label="Tutup keranjang">Tutup</button>
+  </div>
+  <p class="cart-empty" id="cart-empty">Keranjang masih kosong. Tambahkan menu dulu ya.</p>
+  <ul class="cart-list" id="cart-list"></ul>
+  <p class="cart-total">Total: <strong id="cart-total">Rp0</strong></p>
+  <a class="btn btn-primary btn-order" id="order-button" href="#" target="_blank" rel="noopener">Pesan via WhatsApp →</a>
+  <p class="cart-note">Tombol di atas menyusun pesan otomatis berisi pesananmu.</p>
+</aside>
+
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <p>© <span id="year">2026</span> Kopi Senja — contoh landing page oleh <a href="https://github.com/kirax-12" target="_blank" rel="noopener">Remike Dev</a></p>
+    <p><a href="#top">Kembali ke atas ↑</a></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
