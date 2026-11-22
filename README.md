@@ -1,5 +1,7 @@
 # Landing Page Kedai Kopi — "Kopi Senja"
 
+**Demo live:** [landing-page-kedai-kopi di GitHub Pages](https://kirax-12.github.io/landing-page-kedai-kopi/)
+
 Contoh landing page untuk UMKM kedai kopi, dibuat oleh [Remike Dev](https://github.com/kirax-12) sebagai proyek portofolio. Nama kedai, alamat, dan nomor WhatsApp di dalamnya adalah contoh dan bisa diganti sesuai kebutuhan.
 
 ## Fitur
